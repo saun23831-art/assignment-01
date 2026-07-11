@@ -314,12 +314,16 @@ th{
 /* Table end */
 
 /* footer */
+.footer-manu{
+ background-color: #0D1B2A;
+}
+.footer-manu hr{
 
-
+}
 .footer-container{
     display: flex;
     justify-content: space-between;
-    background-color:#0D1B2A ;
+   
     padding: 40px 8%;
 }
 .footer-container div{
@@ -333,8 +337,15 @@ th{
      text-decoration: none;
      color: white;
 }
-
-
+  .copyright{
+text-align:center;
+    color:#9CA3AF;
+   } 
+   .footer-manu hr{
+        margin-bottom: 11px;
+    border: 1px solid #5757575b;
+   }
 
 /* footer */
 
+ 
